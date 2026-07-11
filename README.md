@@ -84,22 +84,29 @@ Phase 5            → SaaS product build + freelancing
 
 ### 📊 GitHub Stats
 
+<!--
+NOTE: The official github-readme-stats.vercel.app instance is currently PAUSED by its
+maintainer (a known, widely-reported issue since Jan 2026 — not something wrong with
+this file). Using a community mirror below as a stopgap. For a permanent fix, self-host
+your own free instance — see SELF_HOSTING_STATS.md for step-by-step instructions.
+-->
+
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=deoreparth700-design &show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deoreparth700-design &layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-eight.vercel.app/api?username=deoreparth700-design&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=deoreparth700-design&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deoreparth700-design &theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=deoreparth700-design&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deoreparth700-design &theme=tokyo-night&hide_border=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deoreparth700-design&theme=tokyo-night&hide_border=true" width="100%" />
 </p>
 
 <!-- SNAKE CONTRIBUTION ANIMATION -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/deoreparth700-design /deoreparth700-design /output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/deoreparth700-design/deoreparth700-design/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 <br>
@@ -107,7 +114,7 @@ Phase 5            → SaaS product build + freelancing
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=deoreparth700-design &theme=tokyonight&no-frame=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=deoreparth700-design&theme=tokyonight&no-frame=true&row=1&column=7" />
 </p>
 
 <br>
@@ -132,7 +139,7 @@ Phase 5            → SaaS product build + freelancing
 <br>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=deoreparth700-design &label=Profile+Views&color=2E9EF7&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=deoreparth700-design&label=Profile+Views&color=2E9EF7&style=flat-square" />
 </p>
 
 <div align="center">
