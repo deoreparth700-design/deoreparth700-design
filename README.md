@@ -1,149 +1,122 @@
+<!--
+====================================================================
+PLACE THIS FILE AT: README.md inside a repo named EXACTLY
+deoreparth700-design (must match your GitHub username exactly)
+GitHub auto-detects that repo as your special profile README.
+====================================================================
+-->
+
 <div align="center">
 
-<!-- ANIMATED TYPING HEADER -->
+<!-- WAVING CAPSULE-RENDER HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:7dd3fc&height=200&section=header&text=Parth%20Deore&fontSize=46&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Final-Year%20CS%20Student%20%C2%B7%20Backend%20Dev%20in%20Training%20(Python%2C%20FastAPI%2C%20AI%20Automation)&descSize=18&descAlignY=58&descColor=e0f2fe" width="100%"/>
+
+<!--
+  ^ TITLE USED ABOVE: "Final-Year CS Student · Backend Dev in Training (Python, FastAPI, AI Automation)"
+  If you want your originally requested title instead, replace the &text= line with:
+  &text=Parth%20Deore&desc=Backend%20Developer%20with%20AI%20Automation
+  (only do this once you have at least one real project to back it up)
+-->
+
+<!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Parth+%F0%9F%91%8B;Final-Year+CSE+Student+%7C+Pune%2C+India;Learning+Python%2C+DSA+%26+Backend+Basics;Working+Toward%3A+FastAPI+%2B+PostgreSQL+%2B+Redis;Documenting+the+Journey%2C+Not+Faking+It" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Learning+Python%2C+DSA+%26+Git+fundamentals;Building+toward+FastAPI+%2B+PostgreSQL+%2B+Redis;Exploring+AI+automation+%E2%80%94+one+real+project+at+a+time;Open+to+internship+opportunities" alt="Typing SVG" />
 </a>
+
+<br><br>
+
+<!-- OPEN TO WORK BADGE -->
+<img src="https://img.shields.io/badge/Open%20to-Internships-7dd3fc?style=for-the-badge&logo=briefcase&logoColor=white" />
+
+<br><br>
+
+<!-- PROFILE VIEWS + FOLLOWERS -->
+<img src="https://komarev.com/ghpvc/?username=deoreparth700-design&label=Profile%20Views&color=7dd3fc&style=flat-square" />
+<img src="https://img.shields.io/github/followers/deoreparth700-design?label=Followers&style=flat-square&color=7dd3fc" />
 
 </div>
 
-<!--
-================================================================
-HOW TO USE THIS FILE
-================================================================
-1. Create a repo named EXACTLY your GitHub username
-   (e.g. if your username is parth-dev, repo name = parth-dev)
-2. GitHub auto-detects this as your special profile repo
-3. Paste this file in as README.md at the repo root
-4. Replace every {{PLACEHOLDER}} below with your real info
-================================================================
--->
-
-### 👋 About Me
-
-I'm a final-year **Computer Science Engineering** student based in Pune, India, learning my way toward becoming a **Backend Python Developer**, with a longer-term interest in AI automation.
-
-- 🔭 Currently learning **Python fundamentals, Git/GitHub, and Data Structures & Algorithms**
-- 🌱 Next on my roadmap: **FastAPI, PostgreSQL & Redis** for backend development
-- 🎯 Preparing for placements — building this profile one real, working project at a time
-- 📌 Long-term direction: backend systems + AI automation (LLM APIs, RAG, LangChain) — aspirational for now, not claimed yet
-- 💬 Ask me about Python or DSA — happy to talk through what I'm learning
-- ⚡ I'd rather show 5 honest, documented projects than fake 20
-
 <br>
 
-### 🛠️ Tech Stack
+## 🧾 Who I Am
 
-**Using now:**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,git,github,linux,vscode,bash" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-</p>
-
-**Learning toward (roadmap, not yet claimed as a skill):**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,docker" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
-*I'll move a badge from "learning toward" to "using now" only once I've shipped a real project with it — badges here are meant to be true, not aspirational decoration.*
-
-<br>
-
-### 🎯 Current Focus
-
-```text
-Phase 1 (Now)      → Python fundamentals + DSA + Git/GitHub fluency
-Phase 2 (Next)      → FastAPI + PostgreSQL + Redis backend projects
-Phase 3            → Docker + deployment
-Phase 4            → AI automation: LLM APIs, RAG, LangChain, LangGraph, MCP servers
-Phase 5            → SaaS product build + freelancing
+```typescript
+const parth = {
+  title: "Final-Year CS Student · Backend Dev in Training",
+  stack: {
+    core: ["Python", "Git", "Linux"],
+    learning: ["FastAPI", "PostgreSQL", "Redis", "Docker"]
+  },
+  launchedProjects: [], // building my first real project now — nothing live yet
+  certifications: [],
+  status: "Preparing for placements · learning in public",
+  openTo: ["Internships", "Backend Python roles", "Collaborative learning"]
+};
 ```
 
 <br>
 
-### 📌 Pinned Projects
+## 🛠️ Tech Stack
 
-> See the Pinned section above ⬆️ — updated as I complete milestone projects.
-> Full project list: [first-20-repos strategy →](#)
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python" />
+
+**Backend / Infra — core**
+
+<img src="https://skillicons.dev/icons?i=git" />
+
+**Backend / Infra — learning toward**
+
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,docker" />
+
+**Dev Tools**
+
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,bash" />
 
 <br>
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <!--
-NOTE: The official github-readme-stats.vercel.app instance is currently PAUSED by its
-maintainer (a known, widely-reported issue since Jan 2026 — not something wrong with
-this file). Using a community mirror below as a stopgap. For a permanent fix, self-host
-your own free instance — see SELF_HOSTING_STATS.md for step-by-step instructions.
+NOTE: github-readme-stats.vercel.app (the public one) has been getting paused/rate-limited.
+Once your self-hosted Vercel deployment from earlier is live, replace
+{{YOUR_STATS_DEPLOYMENT}} below with your own URL, e.g.
+github-readme-stats-deoreparth700.vercel.app
 -->
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-eight.vercel.app/api?username=deoreparth700-design&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=deoreparth700-design&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://{{YOUR_STATS_DEPLOYMENT}}/api?username=deoreparth700-design&show_icons=true&theme=react&hide_border=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
+  <img height="165" src="https://{{YOUR_STATS_DEPLOYMENT}}/api/top-langs/?username=deoreparth700-design&layout=compact&theme=react&hide_border=true&title_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=deoreparth700-design&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=deoreparth700-design&theme=react&hide_border=true&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deoreparth700-design&theme=tokyo-night&hide_border=true" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=deoreparth700-design&theme=algolia&no-frame=true&column=7&row=1" />
 </p>
 
-<!-- SNAKE CONTRIBUTION ANIMATION -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/deoreparth700-design/deoreparth700-design/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deoreparth700-design&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=e0f2fe" width="100%" />
 </p>
 
 <br>
 
-### 🏆 GitHub Trophies
+## 🤝 Connect
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=deoreparth700-design&theme=tokyonight&no-frame=true&row=1&column=7" />
+  <a href="https://www.linkedin.com/in/parth-deore-1232b2212">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/deoreparth700-design">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
 <br>
-
-### 💬 Dynamic Quote
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</p>
-
-<br>
-
-### 🤝 Connect With Me
-
-<p align="left">
-  <a href="https://linkedin.com/in/{{LINKEDIN}}"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:{{EMAIL}}"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://{{PORTFOLIO_URL}}"><img src="https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
-  <a href="https://leetcode.com/{{LEETCODE}}"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white" /></a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=deoreparth700-design&label=Profile+Views&color=2E9EF7&style=flat-square" />
-</p>
 
 <div align="center">
-
-⭐️ *"Consistency compounds. Every commit here is real work, not noise."*
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0F172A&height=120&section=footer" width="100%"/>
 </div>
