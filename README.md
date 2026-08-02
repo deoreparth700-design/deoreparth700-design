@@ -47,7 +47,11 @@ const parth = {
     core: ["Python", "Git", "Linux"],
     learning: ["FastAPI", "PostgreSQL", "Redis", "Docker"]
   },
-  launchedProjects: [], // building my first real project now — nothing live yet
+  launchedProjects: [
+    "Alumni Portal — React, Node.js, Express, MongoDB Atlas",
+    "Task Manager Backend API (in progress) — Django REST, SQL",
+    "AR Smart Cooking Assistant — Unity, Vuforia"
+  ],
   certifications: [
     "Software Engineering Job Simulation — JPMorgan Chase & Co. (via Forage), Jul 2026",
     "Software Development Job Simulation — Datacom (via Forage), Jul 2026",
@@ -67,6 +71,22 @@ const parth = {
 | Software Engineering Job Simulation | JPMorgan Chase & Co. (via Forage) | July 2026 |
 | Software Development Job Simulation | Datacom (via Forage) | July 2026 |
 | Software Engineering Job Simulation | Quantium (via Forage) | August 2026 |
+
+<br>
+
+## 🌐 Portfolio
+
+<p align="center">
+  <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fmy-portfolio-alpha-rouge-j26e173ev7.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
+    <img src="https://img.shields.io/badge/Visit%20Portfolio-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" />
+  </a>
+</p>
 
 <br>
 
@@ -121,6 +141,9 @@ github-readme-stats-deoreparth700.vercel.app
 ## 🤝 Connect
 
 <p align="center">
+  <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
+    <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
   <a href="https://www.linkedin.com/in/parth-deore-1232b2212">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
