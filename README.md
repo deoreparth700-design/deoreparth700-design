@@ -78,7 +78,7 @@ const parth = {
 
 <p align="center">
   <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
-    <img src="https://api.microlink.io/?url=https%3A%2F%2Fmy-portfolio-alpha-rouge-j26e173ev7.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fmy-portfolio-alpha-rouge-j26e173ev7.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720&waitUntil=networkidle0&waitFor=3000" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
   </a>
 </p>
 
