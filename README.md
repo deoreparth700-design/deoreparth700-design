@@ -48,11 +48,25 @@ const parth = {
     learning: ["FastAPI", "PostgreSQL", "Redis", "Docker"]
   },
   launchedProjects: [], // building my first real project now — nothing live yet
-  certifications: [],
+  certifications: [
+    "Software Engineering Job Simulation — JPMorgan Chase & Co. (via Forage), Jul 2026",
+    "Software Development Job Simulation — Datacom (via Forage), Jul 2026",
+    "Software Engineering Job Simulation — Quantium (via Forage), Aug 2026"
+  ],
   status: "Preparing for placements · learning in public",
   openTo: ["Internships", "Backend Python roles", "Collaborative learning"]
 };
 ```
+
+<br>
+
+## 📜 Certifications
+
+| Certificate | Issuer | Date |
+|---|---|---|
+| Software Engineering Job Simulation | JPMorgan Chase & Co. (via Forage) | July 2026 |
+| Software Development Job Simulation | Datacom (via Forage) | July 2026 |
+| Software Engineering Job Simulation | Quantium (via Forage) | August 2026 |
 
 <br>
 
