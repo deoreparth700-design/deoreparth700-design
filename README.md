@@ -1,22 +1,7 @@
-<!--
-====================================================================
-PLACE THIS FILE AT: README.md inside a repo named EXACTLY
-deoreparth700-design (must match your GitHub username exactly)
-GitHub auto-detects that repo as your special profile README.
-====================================================================
--->
-
 <div align="center">
 
 <!-- WAVING CAPSULE-RENDER HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:7dd3fc&height=200&section=header&text=Parth%20Deore&fontSize=46&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Final-Year%20CS%20Student%20%C2%B7%20Backend%20Dev%20in%20Training%20(Python%2C%20FastAPI%2C%20AI%20Automation)&descSize=18&descAlignY=58&descColor=e0f2fe" width="100%"/>
-
-<!--
-  ^ TITLE USED ABOVE: "Final-Year CS Student · Backend Dev in Training (Python, FastAPI, AI Automation)"
-  If you want your originally requested title instead, replace the &text= line with:
-  &text=Parth%20Deore&desc=Backend%20Developer%20with%20AI%20Automation
-  (only do this once you have at least one real project to back it up)
--->
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
@@ -77,13 +62,13 @@ const parth = {
 ## 🌐 Portfolio
 
 <p align="center">
-  <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
-    <img src="https://api.microlink.io/?url=https%3A%2F%2Fmy-portfolio-alpha-rouge-j26e173ev7.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720&waitUntil=networkidle0&waitFor=3000" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
+  <a href="https://my-portfolio-kebv.vercel.app/">
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fmy-portfolio-kebv.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720&waitUntil=networkidle0&waitFor=3000" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
+  <a href="https://my-portfolio-kebv.vercel.app/">
     <img src="https://img.shields.io/badge/Visit%20Portfolio-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" />
   </a>
 </p>
@@ -141,7 +126,7 @@ github-readme-stats-deoreparth700.vercel.app
 ## 🤝 Connect
 
 <p align="center">
-  <a href="https://my-portfolio-alpha-rouge-j26e173ev7.vercel.app/">
+  <a href="https://my-portfolio-kebv.vercel.app/">
     <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/parth-deore-1232b2212">
