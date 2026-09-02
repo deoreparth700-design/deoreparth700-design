@@ -29,13 +29,12 @@
 const parth = {
   title: "Final-Year CS Student · Backend Dev in Training",
   stack: {
-    core: ["Python", "Git", "Linux"],
-    learning: ["FastAPI", "PostgreSQL", "Redis", "Docker"]
+    core: ["Python", "FastAPI", "PostgreSQL", "Git"],
+    learning: ["Redis", "Docker", "CI/CD"]
   },
-  launchedProjects: [
-    "Alumni Portal — React, Node.js, Express, MongoDB Atlas",
-    "Task Manager Backend API (in progress) — Django REST, SQL",
-    "AR Smart Cooking Assistant — Unity, Vuforia"
+  projects: [
+    "Auth Service — FastAPI, PostgreSQL, JWT (deployed on Render)",
+    "Alumni Portal — React, Node.js, Express, MongoDB Atlas"
   ],
   certifications: [
     "Software Engineering Job Simulation — JPMorgan Chase & Co. (via Forage), Jul 2026",
@@ -97,16 +96,9 @@ const parth = {
 
 ## 📊 GitHub Stats
 
-<!--
-NOTE: github-readme-stats.vercel.app (the public one) has been getting paused/rate-limited.
-Once your self-hosted Vercel deployment from earlier is live, replace
-{{YOUR_STATS_DEPLOYMENT}} below with your own URL, e.g.
-github-readme-stats-deoreparth700.vercel.app
--->
-
 <p align="center">
-  <img height="165" src="https://{{YOUR_STATS_DEPLOYMENT}}/api?username=deoreparth700-design&show_icons=true&theme=react&hide_border=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
-  <img height="165" src="https://{{YOUR_STATS_DEPLOYMENT}}/api/top-langs/?username=deoreparth700-design&layout=compact&theme=react&hide_border=true&title_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=deoreparth700-design&show_icons=true&theme=react&hide_border=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deoreparth700-design&layout=compact&theme=react&hide_border=true&title_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
 </p>
 
 <p align="center">
