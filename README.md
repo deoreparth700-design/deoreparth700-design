@@ -143,14 +143,6 @@ Collaborative 4-member final-year project for connecting students and alumni of 
   <img src="https://streak-stats.demolab.com/?user=deoreparth700-design&theme=react&hide_border=true&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=deoreparth700-design&theme=algolia&no-frame=true&column=7&row=1" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deoreparth700-design&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=e0f2fe" width="100%" />
-</p>
-
 <br>
 
 ## 🤝 Connect
