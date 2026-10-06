@@ -34,7 +34,8 @@ const parth = {
   },
   projects: [
     "Auth Service — FastAPI, PostgreSQL, JWT (deployed on Render)",
-    "Alumni Portal — React, Node.js, Express, MongoDB Atlas"
+    "Alumni Portal — React, Node.js, Express, MongoDB Atlas",
+    "SOET Connect — Collaborative final-year project"
   ],
   certifications: [
     "Software Engineering Job Simulation — JPMorgan Chase & Co. (via Forage), Jul 2026",
