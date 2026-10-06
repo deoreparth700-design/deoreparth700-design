@@ -49,6 +49,21 @@ const parth = {
 
 <br>
 
+## 🚀 Featured Project
+
+### [SOET Connect](https://github.com/rohan26-bit/SOET-Connect)
+
+Collaborative 4-member final-year project for connecting students and alumni of the School of Engineering & Technology.
+
+**My Contributions**
+- Backend security hardening: authentication, authorization, and user-state checks
+- Chat and automated notification backend
+- Production API integration and deployment-related fixes
+
+> Team project — main repository maintained by the team.
+
+<br>
+
 ## 📜 Certifications
 
 | Certificate | Issuer | Date |
