@@ -11,7 +11,7 @@
 <br><br>
 
 <!-- OPEN TO WORK BADGE -->
-<img src="https://img.shields.io/badge/Open%20to-Internships-7dd3fc?style=for-the-badge&logo=briefcase&logoColor=white" />
+<img src="https://img.shields.io/badge/Open%20to-Internships-7dd3fc?style=for-the-badge" alt="Open to internships" />
 
 <br><br>
 
@@ -33,9 +33,10 @@ const parth = {
     learning: ["Redis", "Docker", "CI/CD"]
   },
   projects: [
-    "Auth Service — FastAPI, PostgreSQL, JWT (deployed on Render)",
-    "Alumni Portal — React, Node.js, Express, MongoDB Atlas",
-    "SOET Connect — Collaborative final-year project"
+    "Auth Service — FastAPI, PostgreSQL, JWT (live on Render)",
+    "Blockchain-Based Secure Online Exam (live on Vercel)",
+    "SOET Connect — Collaborative final-year project (live on Vercel)",
+    "Alumni Portal — React, Node.js, Express, MongoDB Atlas"
   ],
   certifications: [
     "Software Engineering Job Simulation — JPMorgan Chase & Co. (via Forage), Jul 2026",
@@ -51,7 +52,16 @@ const parth = {
 
 ## 🚀 Featured Project
 
-### [SOET Connect](https://github.com/rohan26-bit/SOET-Connect)
+### SOET Connect
+
+<p>
+  <a href="https://soet-connect-ut5i.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" alt="Live demo" />
+  </a>
+  <a href="https://github.com/rohan26-bit/SOET-Connect">
+    <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" />
+  </a>
+</p>
 
 Collaborative 4-member final-year project for connecting students and alumni of the School of Engineering & Technology.
 
@@ -61,6 +71,18 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 - Production API integration and deployment-related fixes
 
 > Team project — main repository maintained by the team.
+
+<br>
+
+## 🌍 Live Projects
+
+| Project | Stack | Live |
+|---|---|---|
+| **SOET Connect** | Team project, students & alumni platform | [Open ↗](https://soet-connect-ut5i.vercel.app/) |
+| **Blockchain-Based Secure Online Exam** | Blockchain, web app | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) |
+| **Auth Service** | FastAPI, PostgreSQL, JWT | [Open ↗](https://auth-service-17bm.onrender.com) |
+
+> ⏳ Auth Service runs on Render's free tier, so the first request may take 30–60 seconds to wake up.
 
 <br>
 
@@ -114,7 +136,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=deoreparth700-design&show_icons=true&theme=react&hide_border=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deoreparth700-design&layout=compact&theme=react&hide_border=true&title_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deoreparth700-design&layout=compact&langs_count=4&hide=javascript,typescript,html,css,jupyter%20notebook,shell&theme=react&hide_border=true&title_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
 </p>
 
 <p align="center">
