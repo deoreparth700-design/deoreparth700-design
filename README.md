@@ -33,6 +33,7 @@ const parth = {
     learning: ["Redis", "Docker", "CI/CD"]
   },
   projects: [
+    "Blog Platform API — FastAPI, PostgreSQL, Redis caching (live on Render)",
     "Auth Service — FastAPI, PostgreSQL, JWT (live on Render)",
     "Blockchain-Based Secure Online Exam (live on Vercel)",
     "SOET Connect — Collaborative final-year project (live on Vercel)",
@@ -78,6 +79,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 
 | Project | Stack | Live |
 |---|---|---|
+| **Blog Platform API** | FastAPI, PostgreSQL/Neon, Redis caching, JWT authentication | [Open App ↗](https://blog-platform-api-db7a.onrender.com/app) · [API Docs ↗](https://blog-platform-api-db7a.onrender.com/docs) |
 | **SOET Connect** | Team project, students & alumni platform | [Open ↗](https://soet-connect-ut5i.vercel.app/) |
 | **Blockchain-Based Secure Online Exam** | Blockchain, web app | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) |
 | **Auth Service** | FastAPI, PostgreSQL, JWT | [Open ↗](https://auth-service-17bm.onrender.com) |
