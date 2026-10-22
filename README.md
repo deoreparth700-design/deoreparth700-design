@@ -80,7 +80,6 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 | Project | Stack | Live |
 |---|---|---|
 | **Blog Platform API** | FastAPI, PostgreSQL/Neon, Redis caching, JWT authentication | [Open App ↗](https://blog-platform-api-db7a.onrender.com/app) · [API Docs ↗](https://blog-platform-api-db7a.onrender.com/docs) |
-| **URL Shortener** | Express.js, PostgreSQL/Neon, click analytics | [Open API ↗](https://url-shortener-kj4c.onrender.com) · [Source ↗](https://github.com/deoreparth700-design/url-shortener) |
 | **SOET Connect** | Team project, students & alumni platform | [Open ↗](https://soet-connect-ut5i.vercel.app/) |
 | **Blockchain-Based Secure Online Exam** | Blockchain, web app | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) |
 | **Auth Service** | FastAPI, PostgreSQL, JWT | [Open ↗](https://auth-service-17bm.onrender.com) |
