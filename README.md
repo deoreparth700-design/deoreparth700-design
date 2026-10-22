@@ -80,6 +80,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 | Project | Stack | Live |
 |---|---|---|
 | **Blog Platform API** | FastAPI, PostgreSQL/Neon, Redis caching, JWT authentication | [Open App ↗](https://blog-platform-api-db7a.onrender.com/app) · [API Docs ↗](https://blog-platform-api-db7a.onrender.com/docs) |
+| **URL Shortener** | Express.js, PostgreSQL/Neon, click analytics | [Open API ↗](https://url-shortener-kj4c.onrender.com) · [Source ↗](https://github.com/deoreparth700-design/url-shortener) |
 | **SOET Connect** | Team project, students & alumni platform | [Open ↗](https://soet-connect-ut5i.vercel.app/) |
 | **Blockchain-Based Secure Online Exam** | Blockchain, web app | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) |
 | **Auth Service** | FastAPI, PostgreSQL, JWT | [Open ↗](https://auth-service-17bm.onrender.com) |
@@ -101,13 +102,13 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 ## 🌐 Portfolio
 
 <p align="center">
-  <a href="https://my-portfolio-kebv.vercel.app/">
-    <img src="https://api.microlink.io/?url=https%3A%2F%2Fmy-portfolio-kebv.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720&waitUntil=networkidle0&waitFor=3000" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
+  <a href="https://parthdeore.vercel.app/">
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fparthdeore.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&viewport.width=1280&viewport.height=720&waitUntil=networkidle0&waitFor=3000" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" alt="Portfolio site preview" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://my-portfolio-kebv.vercel.app/">
+  <a href="https://parthdeore.vercel.app/">
     <img src="https://img.shields.io/badge/Visit%20Portfolio-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" />
   </a>
 </p>
@@ -150,7 +151,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 ## 🤝 Connect
 
 <p align="center">
-  <a href="https://my-portfolio-kebv.vercel.app/">
+  <a href="https://parthdeore.vercel.app/">
     <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/parth-deore-1232b2212">
