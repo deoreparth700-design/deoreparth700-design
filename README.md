@@ -86,7 +86,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 | **Blockchain-Based Secure Online Exam** | Blockchain, web app | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) |
 | **Auth Service** | FastAPI, PostgreSQL, JWT | [Open ↗](https://auth-service-17bm.onrender.com) |
 
-> ⏳ Auth Service runs on Render's free tier, so the first request may take 30–60 seconds to wake up.
+> ⏳ The Render-hosted demos (Blog Platform API, CartAPI, Auth Service) can go to sleep when idle, so the first request may take 30–60 seconds to wake up.
 
 <br>
 
