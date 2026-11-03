@@ -166,10 +166,6 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=deoreparth700-design&show_icons=true&theme=react&hide_border=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deoreparth700-design&layout=compact&langs_count=4&hide=javascript,typescript,html,css,jupyter%20notebook,shell&theme=react&hide_border=true&title_color=7dd3fc&text_color=e0f2fe&bg_color=0F172A" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=deoreparth700-design&theme=react&hide_border=true&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" />
