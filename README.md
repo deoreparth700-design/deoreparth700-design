@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- WAVING CAPSULE-RENDER HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:7dd3fc&height=200&section=header&text=Parth%20Deore&fontSize=46&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Final-Year%20CS%20Student%20%C2%B7%20Backend%20Dev%20in%20Training%20(Python%2C%20FastAPI%2C%20AI%20Automation)&descSize=18&descAlignY=58&descColor=e0f2fe" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:7dd3fc&height=200&section=header&text=Parth%20Deore&fontSize=46&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Final-Year%20CS%20Student%20%C2%B7%20Python%20Backend%20Developer%20(FastAPI%2C%20PostgreSQL%2C%20Redis)&descSize=18&descAlignY=58&descColor=e0f2fe" width="100%"/>
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Learning+Python%2C+DSA+%26+Git+fundamentals;Building+toward+FastAPI+%2B+PostgreSQL+%2B+Redis;Exploring+AI+automation+%E2%80%94+one+real+project+at+a+time;Open+to+internship+opportunities" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&width=700&lines=Building+Python+backends+with+FastAPI+%26+PostgreSQL;Shipping+tested+APIs+with+GitHub+Actions+CI;Payments%2C+caching%2C+JWT+auth+%E2%80%94+built+and+deployed;Open+to+backend+internships+and+entry-level+roles" alt="Typing SVG" />
 </a>
 
 <br><br>
 
 <!-- OPEN TO WORK BADGE -->
-<img src="https://img.shields.io/badge/Open%20to-Internships-7dd3fc?style=for-the-badge" alt="Open to internships" />
+<img src="https://img.shields.io/badge/Open%20to-Backend%20Internships%20%26%20Entry--Level%20Roles-7dd3fc?style=for-the-badge" alt="Open to backend internships and entry-level roles" />
 
 <br><br>
 
@@ -27,32 +27,58 @@
 
 ```typescript
 const parth = {
-  title: "Final-Year CS Student · Backend Dev in Training",
+  title: "Final-Year CS Student · Python Backend Developer",
+  education: "B.Tech CSE · MGM University, Chh. Sambhaji Nagar",
   stack: {
-    core: ["Python", "FastAPI", "PostgreSQL", "Git"],
-    learning: ["Redis", "Docker", "CI/CD"]
+    core: ["Python", "FastAPI", "PostgreSQL", "Redis", "Docker", "Git"],
+    practices: ["pytest", "GitHub Actions CI", "JWT auth", "REST API design"],
+    learning: ["System design", "AI automation"]
   },
   projects: [
-    "CartAPI — FastAPI, PostgreSQL, Razorpay test-mode payments and signed webhooks (live on Render)",
-    "Blog Platform API — FastAPI, PostgreSQL, Redis caching (live on Render)",
-    "Auth Service — FastAPI, PostgreSQL, JWT (live on Render)",
-    "Blockchain-Based Secure Online Exam (live on Vercel)",
-    "SOET Connect — Collaborative final-year project (live on Vercel)",
-    "Alumni Portal — React, Node.js, Express, MongoDB Atlas"
+    "CartAPI — FastAPI, PostgreSQL, Razorpay test-mode payments, signed webhooks (live on Render)",
+    "Blog Platform API — FastAPI, PostgreSQL, Redis caching, JWT (live on Render)",
+    "Auth Service — FastAPI, PostgreSQL, JWT with refresh-token rotation (live on Render)",
+    "Hash-Chained Exam System — Flask, PostgreSQL, SHA-256 hash chain (live on Vercel)",
+    "SOET Connect — 4-member final-year team project (live on Vercel)"
   ],
   certifications: [
     "Software Engineering Job Simulation — JPMorgan Chase & Co. (via Forage), Jul 2026",
     "Software Development Job Simulation — Datacom (via Forage), Jul 2026",
     "Software Engineering Job Simulation — Quantium (via Forage), Aug 2026"
   ],
-  status: "Preparing for placements · learning in public",
-  openTo: ["Internships", "Backend Python roles", "Collaborative learning"]
+  status: "Final year · preparing for placements · building in public",
+  openTo: ["Backend internships", "Python / software developer roles"]
 };
 ```
 
 <br>
 
 ## 🚀 Featured Project
+
+### CartAPI — Orders API with Razorpay payments
+
+<p>
+  <a href="https://cart-api-m4g4.onrender.com/static/index.html">
+    <img src="https://img.shields.io/badge/Live%20Demo-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" alt="Live demo" />
+  </a>
+  <a href="https://github.com/deoreparth700-design/Cart-API">
+    <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" />
+  </a>
+</p>
+
+An e-commerce orders backend built the way payment systems actually need to behave: safe to retry and safe to attack.
+
+**What it does**
+- Razorpay test-mode payments with HMAC-verified webhooks
+- Idempotency keys, so a retried request never creates a duplicate order
+- Atomic stock handling, with concurrency tests for the last-item race
+- Automatic release of stock from abandoned checkouts after 30 minutes
+- Safe error handling: provider errors are logged, never leaked to clients
+- 41 automated tests, run in GitHub Actions against a real PostgreSQL service
+
+<br>
+
+## 🤝 Team Project
 
 ### SOET Connect
 
@@ -61,7 +87,7 @@ const parth = {
     <img src="https://img.shields.io/badge/Live%20Demo-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" alt="Live demo" />
   </a>
   <a href="https://github.com/rohan26-bit/SOET-Connect">
-    <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" />
+    <img src="https://img.shields.io/badge/Team%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Team repository" />
   </a>
 </p>
 
@@ -72,7 +98,9 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 - Chat and automated notification backend
 - Production API integration and deployment-related fixes
 
-> Team project — main repository maintained by the team.
+<!-- TODO: add links to your merged pull requests in the team repo here so recruiters can verify -->
+
+> Team project — main repository maintained by a teammate.
 
 <br>
 
@@ -80,13 +108,13 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 
 | Project | Stack | Live |
 |---|---|---|
-| **Blog Platform API** | FastAPI, PostgreSQL/Neon, Redis caching, JWT authentication | [Open App ↗](https://blog-platform-api-db7a.onrender.com/app) · [API Docs ↗](https://blog-platform-api-db7a.onrender.com/docs) |
-| **CartAPI** | FastAPI, PostgreSQL, Razorpay test-mode payments, signed webhooks | [Open Storefront ↗](https://cart-api-m4g4.onrender.com/static/index.html) · [Source Code ↗](https://github.com/deoreparth700-design/Cart-API) |
+| **CartAPI** | FastAPI, PostgreSQL, Razorpay test-mode, signed webhooks | [Storefront ↗](https://cart-api-m4g4.onrender.com/static/index.html) · [Source ↗](https://github.com/deoreparth700-design/Cart-API) |
+| **Blog Platform API** | FastAPI, PostgreSQL/Neon, Redis caching, JWT | [App ↗](https://blog-platform-api-db7a.onrender.com/app) · [API Docs ↗](https://blog-platform-api-db7a.onrender.com/docs) · [Source ↗](https://github.com/deoreparth700-design/blog-platform-api) |
+| **Auth Service** | FastAPI, PostgreSQL, JWT, Docker Compose | [Open ↗](https://auth-service-17bm.onrender.com) · [Source ↗](https://github.com/deoreparth700-design/auth-service) |
+| **Hash-Chained Exam System** | Flask, PostgreSQL, SHA-256 hash chain | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) · [Source ↗](https://github.com/deoreparth700-design/Hash-chained-exam-system) |
 | **SOET Connect** | Team project, students & alumni platform | [Open ↗](https://soet-connect-ut5i.vercel.app/) |
-| **Blockchain-Based Secure Online Exam** | Blockchain, web app | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) |
-| **Auth Service** | FastAPI, PostgreSQL, JWT | [Open ↗](https://auth-service-17bm.onrender.com) |
 
-> ⏳ The Render-hosted demos (Blog Platform API, CartAPI, Auth Service) can go to sleep when idle, so the first request may take 30–60 seconds to wake up.
+> ⏳ The Render-hosted demos (CartAPI, Blog Platform API, Auth Service) can go to sleep when idle, so the first request may take 30–60 seconds to wake up.
 
 <br>
 
@@ -120,19 +148,19 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python" />
+<img src="https://skillicons.dev/icons?i=python,js" />
 
-**Backend / Infra — core**
+**Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=git" />
+<img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,redis" />
 
-**Backend / Infra — learning toward**
+**DevOps & Testing**
 
-<img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,docker" />
+<img src="https://skillicons.dev/icons?i=docker,githubactions,git" />
 
 **Dev Tools**
 
-<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,bash" />
+<img src="https://skillicons.dev/icons?i=github,linux,vscode,bash" />
 
 <br>
 
@@ -149,7 +177,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 
 <br>
 
-## 🤝 Connect
+## 📫 Connect
 
 <p align="center">
   <a href="https://parthdeore.vercel.app/">
@@ -160,6 +188,9 @@ Collaborative 4-member final-year project for connecting students and alumni of 
   </a>
   <a href="https://github.com/deoreparth700-design">
     <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:deoreparth700@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
