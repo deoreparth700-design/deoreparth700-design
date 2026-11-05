@@ -31,8 +31,9 @@ const parth = {
   education: "B.Tech CSE · MGM University, Chh. Sambhaji Nagar",
   stack: {
     core: ["Python", "FastAPI", "PostgreSQL", "Redis", "Docker", "Git"],
+    frontend: ["HTML", "CSS", "JavaScript", "React"],
     practices: ["pytest", "GitHub Actions CI", "JWT auth", "REST API design"],
-    learning: ["System design", "AI automation"]
+    learning: ["System design", "Distributed systems"]
   },
   projects: [
     "CartAPI — FastAPI, PostgreSQL, Razorpay test-mode payments, signed webhooks (live on Render)",
@@ -59,7 +60,7 @@ const parth = {
 
 <p>
   <a href="https://cart-api-m4g4.onrender.com/static/index.html">
-    <img src="https://img.shields.io/badge/Live%20Demo-7dd3fc?style=for-the-badge&logo=vercel&logoColor=black" alt="Live demo" />
+    <img src="https://img.shields.io/badge/Live%20Demo-7dd3fc?style=for-the-badge&logo=render&logoColor=black" alt="Live demo" />
   </a>
   <a href="https://github.com/deoreparth700-design/Cart-API">
     <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" />
@@ -93,12 +94,10 @@ An e-commerce orders backend built the way payment systems actually need to beha
 
 Collaborative 4-member final-year project for connecting students and alumni of the School of Engineering & Technology.
 
-**My Contributions**
-- Backend security hardening: authentication, authorization, and user-state checks
-- Chat and automated notification backend
+**My Contributions & Merged Pull Requests**
+- [PR #9: Backend security hardening: authentication, authorization, and user-state checks](https://github.com/rohan26-bit/SOET-Connect/pull/9)
+- [PR #7: Chat and automated notification backend implementation](https://github.com/rohan26-bit/SOET-Connect/pull/7)
 - Production API integration and deployment-related fixes
-
-<!-- TODO: add links to your merged pull requests in the team repo here so recruiters can verify -->
 
 > Team project — main repository maintained by a teammate.
 
@@ -114,7 +113,7 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 | **Hash-Chained Exam System** | Flask, PostgreSQL, SHA-256 hash chain | [Open ↗](https://blockchain-based-secure-online-exam.vercel.app/) · [Source ↗](https://github.com/deoreparth700-design/Hash-chained-exam-system) |
 | **SOET Connect** | Team project, students & alumni platform | [Open ↗](https://soet-connect-ut5i.vercel.app/) |
 
-> ⏳ The Render-hosted demos (CartAPI, Blog Platform API, Auth Service) can go to sleep when idle, so the first request may take 30–60 seconds to wake up.
+> ⏳ The Render-hosted demos (CartAPI, Blog Platform API, Auth Service) can take 30–60 seconds to spin up from cold sleep.
 
 <br>
 
@@ -165,7 +164,6 @@ Collaborative 4-member final-year project for connecting students and alumni of 
 <br>
 
 ## 📊 GitHub Stats
-
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=deoreparth700-design&theme=react&hide_border=true&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" />
