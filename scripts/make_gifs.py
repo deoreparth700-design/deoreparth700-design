@@ -3,9 +3,9 @@
 
 Uses Playwright with Chromium to snapshot each SVG at staggered keyframe
 timestamps via the Web Animations API (anim.currentTime), then assembles
-them into optimized play-once GIFs using Pillow.
+them into smooth, palette-consistent play-once GIFs using Pillow.
 
-Each GIF plays its entrance animation once and holds on the final frame.
+Each GIF plays its entrance animation once at approximately 25 fps and holds on the final frame.
 No loop extension is written, so the animation plays once and then remains on its final frame.
 
 Usage:
@@ -33,16 +33,18 @@ GIF_DIR = ROOT / "gifs"
 BG_COLOR = (248, 246, 240, 255)
 
 # Card specs: (width, fallback_height, animation_duration_ms, n_frames)
+# Card specs: (width, fallback_height, animation_duration_ms, frame_count).
+# 41 frames across 1.6s gives a smooth ~25 fps entrance without excessive GIF weight.
 CARD_CONFIGS = {
-    "hero":                     (1000, 340, 1200, 18),
-    "graph":                    (1000, 269, 1300, 18),
-    "activity":                 (1000, 340, 1300, 18),
-    "tile-projects":            (328,  240, 1000, 16),
-    "tile-simulations":         (328,  240, 1000, 16),
-    "tile-study":               (328,  240, 1000, 16),
-    "repo-cart-api":            (1000, 202, 1000, 16),
-    "repo-auth-service":        (1000, 202, 1000, 16),
-    "repo-blog-platform-api":   (1000, 218, 1000, 16),
+    "hero":                     (1000, 340, 1600, 41),
+    "graph":                    (1000, 269, 1600, 41),
+    "activity":                 (1000, 340, 1600, 41),
+    "tile-projects":            (328,  240, 1400, 36),
+    "tile-simulations":         (328,  240, 1400, 36),
+    "tile-study":               (328,  240, 1400, 36),
+    "repo-cart-api":            (1000, 202, 1400, 36),
+    "repo-auth-service":        (1000, 202, 1400, 36),
+    "repo-blog-platform-api":   (1000, 218, 1400, 36),
 }
 
 
@@ -81,9 +83,7 @@ def render_card_gif(card_name: str, page) -> Path:
     # Staggered timeline from 0 to duration_ms
     times = [int(duration_ms * i / (n_frames - 1)) for i in range(n_frames)]
 
-    frames = []
-    durations = []
-    frame_ms = max(50, round(duration_ms / (n_frames - 1)))
+    rgb_frames = []
 
     for t_ms in times:
         page.evaluate(f"""() => {{
@@ -99,13 +99,31 @@ def render_card_gif(card_name: str, page) -> Path:
         )
         im = Image.open(io.BytesIO(png_bytes)).convert("RGBA")
         bg = Image.new("RGBA", im.size, BG_COLOR)
-        bg.paste(im, mask=im.split()[3])
-        p_frame = bg.convert("P", palette=Image.ADAPTIVE, colors=96)
-        frames.append(p_frame)
-        durations.append(frame_ms)
+        bg.alpha_composite(im)
+        rgb_frames.append(bg.convert("RGB"))
 
-    # Final hold frame: hold for 10 seconds (10000ms); no loop extension means play once.
-    durations[-1] = 10000
+    # Build ONE shared palette from every sampled frame. Per-frame adaptive palettes
+    # can cause subtle colour flicker that looks like jitter during motion.
+    palette_sheet = Image.new("RGB", (width, height * len(rgb_frames)))
+    for index, frame in enumerate(rgb_frames):
+        palette_sheet.paste(frame, (0, index * height))
+    shared_palette = palette_sheet.quantize(
+        colors=128,
+        method=Image.Quantize.MEDIANCUT,
+        dither=Image.Dither.NONE,
+    )
+    frames = [
+        frame.quantize(palette=shared_palette, dither=Image.Dither.NONE)
+        for frame in rgb_frames
+    ]
+
+    # Match each frame delay to its sampled timeline interval (GIF uses 10ms units).
+    durations = [
+        max(20, int(round((times[i + 1] - times[i]) / 10)) * 10)
+        for i in range(len(times) - 1)
+    ]
+    # Hold the completed card for 5 seconds. No loop extension is written.
+    durations.append(5000)
 
     out_path = GIF_DIR / f"{card_name}.gif"
     frames[0].save(
@@ -113,7 +131,7 @@ def render_card_gif(card_name: str, page) -> Path:
         save_all=True,
         append_images=frames[1:],
         duration=durations,
-        optimize=False,   # preserve all frames smoothly
+        optimize=False,
         disposal=2,
     )
     return out_path
