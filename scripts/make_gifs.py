@@ -6,7 +6,7 @@ timestamps via the Web Animations API (anim.currentTime), then assembles
 them into optimized play-once GIFs using Pillow.
 
 Each GIF plays its entrance animation once and holds on the final frame.
-Loop count is set to 1 (play once, do not continuously loop).
+No loop extension is written, so the animation plays once and then remains on its final frame.
 
 Usage:
     python scripts/make_gifs.py
@@ -104,7 +104,7 @@ def render_card_gif(card_name: str, page) -> Path:
         frames.append(p_frame)
         durations.append(frame_ms)
 
-    # Final hold frame: hold for 10 seconds (10000ms), loop=1 ensures play-once
+    # Final hold frame: hold for 10 seconds (10000ms); no loop extension means play once.
     durations[-1] = 10000
 
     out_path = GIF_DIR / f"{card_name}.gif"
@@ -113,7 +113,6 @@ def render_card_gif(card_name: str, page) -> Path:
         save_all=True,
         append_images=frames[1:],
         duration=durations,
-        loop=1,           # 1 = play once and hold final frame
         optimize=False,   # preserve all frames smoothly
         disposal=2,
     )
@@ -127,7 +126,7 @@ def main():
     GIF_DIR.mkdir(exist_ok=True)
     t0 = time.time()
 
-    print(f"Generating {len(CARD_CONFIGS)} animated GIFs (play-once, loop=1)...")
+    print(f"Generating {len(CARD_CONFIGS)} animated GIFs (non-looping)...")
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(
