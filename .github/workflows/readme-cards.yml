@@ -2,13 +2,13 @@ name: Refresh README cards
 
 on:
   schedule:
-    - cron: "30 0 * * *" # 06:00 in India (IST is UTC+5:30)
+    - cron: "30 0 * * *" # 06:00 India Standard Time (UTC+5:30)
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - "scripts/**"
-      - "assets/**"
+      - "fonts/**"
       - ".github/workflows/readme-cards.yml"
 
 permissions:
@@ -28,8 +28,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install fonttools pillow
+      - name: Install Python dependencies
+        run: pip install fonttools pillow playwright brotli
+
+      - name: Install Chromium for Playwright
+        run: python -m playwright install chromium --with-deps
 
       - name: Refresh contribution and repo data
         run: python scripts/fetch_data.py
@@ -40,15 +43,23 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Build subset fonts (first run only)
-        run: test -f fonts/sans-800.woff || python scripts/render_readme_cards.py --build-fonts
+        run: |
+          if [ ! -f fonts/bodoni-400.woff2 ] || [ ! -f fonts/sans-800.woff ]; then
+            python scripts/render_readme_cards.py --build-fonts
+          else
+            echo "Fonts already present, skipping build"
+          fi
 
-      - name: Render README cards
+      - name: Render static SVG cards
         run: python scripts/render_readme_cards.py
 
-      - name: Commit data and cards
+      - name: Generate animated GIF cards
+        run: python scripts/make_gifs.py
+
+      - name: Commit data, fonts, cards and GIFs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data cards fonts
+          git add data cards fonts gifs
           git diff --cached --quiet || git commit -m "Refresh README cards"
           git push
