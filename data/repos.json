@@ -1,0 +1,95 @@
+{
+ "end": "2026-11-11",
+ "repos": [
+  {
+   "name": "deoreparth700-design",
+   "description": null,
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-11T08:07:55Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/deoreparth700-design"
+  },
+  {
+   "name": "Cart-API",
+   "description": "Orders backend with Razorpay payments, idempotency, atomic stock handling, and HMAC webhooks",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-11T07:50:40Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/Cart-API"
+  },
+  {
+   "name": "leetcode",
+   "description": "Solved data structures and algorithmic problem implementations",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-11T07:41:41Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/leetcode"
+  },
+  {
+   "name": "my-portfolio",
+   "description": "Personal developer portfolio showcasing backend engineering projects and live demos",
+   "language": "CSS",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-05T22:05:03Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/my-portfolio"
+  },
+  {
+   "name": "quantium-python-setup",
+   "description": null,
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-05T21:49:54Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/quantium-python-setup"
+  },
+  {
+   "name": "Hash-chained-exam-system",
+   "description": "Online examination platform with tamper-evident SHA-256 cryptographic hash-chaining",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-05T21:39:05Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/Hash-chained-exam-system"
+  },
+  {
+   "name": "blog-platform-api",
+   "description": "Production RESTful blog API with Redis caching, JWT auth, and automated CI test suite",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-05T21:37:04Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/blog-platform-api"
+  },
+  {
+   "name": "auth-service",
+   "description": "Production-ready authentication service with FastAPI, PostgreSQL, and refresh-token rotation",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-11-05T21:27:34Z",
+   "fork": false,
+   "url": "https://github.com/deoreparth700-design/auth-service"
+  },
+  {
+   "name": "forage-midas",
+   "description": "Project repo for the JPMC Advanced Software Engineering Forage program",
+   "language": "Java",
+   "stars": 0,
+   "forks": 0,
+   "pushed_at": "2026-08-02T11:07:28Z",
+   "fork": true,
+   "url": "https://github.com/deoreparth700-design/forage-midas"
+  }
+ ]
+}
