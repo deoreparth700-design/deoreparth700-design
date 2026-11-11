@@ -188,12 +188,14 @@ ANIM_CSS = """\
 .pop{transform-box:fill-box;transform-origin:50% 50%;animation:pop 0.8s cubic-bezier(0.34, 1.4, 0.64, 1) var(--d, 0s) both}
 .col{animation:colin 0.6s cubic-bezier(0.16, 1, 0.3, 1) var(--d, 0s) both}
 .nudge{animation:nudge 2.2s ease-in-out var(--d, 0s) infinite}
-@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
-@keyframes riseSm{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@keyframes fade{from{opacity:0}to{opacity:1}}
-@keyframes grow{from{opacity:0;transform:scaleY(0)}to{opacity:1;transform:scaleY(1)}}
-@keyframes pop{0%{opacity:0;transform:scale(0.85)}60%{opacity:1;transform:scale(1.03)}100%{opacity:1;transform:scale(1)}}
-@keyframes colin{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+/* Keep the very first GIF frame legible when GitHub autoplay is disabled.
+   Entrance motion starts from a visible, slightly displaced state instead of opacity:0. */
+@keyframes rise{from{opacity:.90;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@keyframes riseSm{from{opacity:.94;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:.92}to{opacity:1}}
+@keyframes grow{from{opacity:.82;transform:scaleY(.94)}to{opacity:1;transform:scaleY(1)}}
+@keyframes pop{0%{opacity:.92;transform:scale(.975)}60%{opacity:1;transform:scale(1.025)}100%{opacity:1;transform:scale(1)}}
+@keyframes colin{from{opacity:.90;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
 @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
 .still{display:none}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}.live{display:none}.still{display:inline}}
